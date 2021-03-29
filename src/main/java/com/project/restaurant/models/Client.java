@@ -1,9 +1,21 @@
 package com.project.restaurant.models;
 
+import com.sun.istack.NotNull;
+
+import javax.persistence.Entity;
+import javax.persistence.*;
+
+@Entity
+@Table(name = "Client")
 public class Client
 {
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
   private int    id;
+  @NotNull
+  @Column(name = "name", unique = true)
   private String name;
+
   private String type;
 
   public Client()

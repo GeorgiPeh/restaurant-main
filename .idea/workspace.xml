@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2e55874-34cd-4c49-a9e5-950635fb6ab3" name="Default Changelist" comment="" />
+    <list default="true" id="b2e55874-34cd-4c49-a9e5-950635fb6ab3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/project1.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project1.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/project1.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant.iml" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/restaurant/models/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/restaurant/models/Client.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,18 +47,13 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eztMjpjlacTv3JKlr0HiFyHcNZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -58,9 +65,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Crap Project/georgi-pehlivanov/restaurant" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -211,6 +219,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -242,6 +251,7 @@
       <workItem from="1616434016945" duration="490000" />
       <workItem from="1616503817715" duration="807000" />
       <workItem from="1616531463130" duration="121000" />
+      <workItem from="1617031591736" duration="2545000" />
     </task>
     <task id="LOCAL-00001" summary="Inital import">
       <created>1595336379402</created>
@@ -331,9 +341,12 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="Inital import" />
     <MESSAGE value="1. Added oracle dependency.&#10;2. Added application properties." />
     <MESSAGE value="1. Added models." />
@@ -348,51 +361,16 @@
     <MESSAGE value="1.Add waiters orders." />
     <option name="LAST_COMMIT_MESSAGE" value="1.Add waiters orders." />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1616503870546">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616503870546" />
-    <state width="1875" height="253" key="GridCell.Tab.0.bottom" timestamp="1616531587116">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616531587116" />
-    <state width="1875" height="253" key="GridCell.Tab.0.center" timestamp="1616531587116">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616531587116" />
-    <state width="1875" height="253" key="GridCell.Tab.0.left" timestamp="1616531587116">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616531587116" />
-    <state width="1875" height="253" key="GridCell.Tab.0.right" timestamp="1616531587116">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616531587116" />
-    <state width="1875" height="253" key="GridCell.Tab.1.bottom" timestamp="1616531587116">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="253" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616531587116" />
-    <state width="1875" height="253" key="GridCell.Tab.1.center" timestamp="1616531587116">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="253" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616531587116" />
-    <state width="1875" height="253" key="GridCell.Tab.1.left" timestamp="1616531587116">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="253" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616531587116" />
-    <state width="1875" height="253" key="GridCell.Tab.1.right" timestamp="1616531587116">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1875" height="253" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616531587116" />
-    <state x="460" y="161" key="SettingsEditor" timestamp="1616531542218">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="460" y="161" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616531542218" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1616531464028">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1616531464028" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/project/restaurant/models/VeganWeightPrice.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="hg4idea.settings">
     <option name="CHECK_INCOMING_OUTGOING" value="true" />
