@@ -1,8 +1,18 @@
 package com.project.restaurant.models;
 
+import com.sun.istack.NotNull;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "Sales")
 public class Sale
 {
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
   private int     id;
+  @Column
+  @NotNull
   private String  clientName;
   private String  waitersName;
   private String  dishes;

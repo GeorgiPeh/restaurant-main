@@ -1,10 +1,25 @@
 package com.project.restaurant.models;
 
+import com.sun.istack.NotNull;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name = "Orders")
 public class Order
 {
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
+  @Column
   private int id;
+  @NotNull
+  @Column
   private int clientId;
+  @NotNull
+  @Column
   private int waitressId;
+  @NotNull
+  @Column
   private int menuId;
 
   public Order()

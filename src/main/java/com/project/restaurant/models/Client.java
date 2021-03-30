@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Client")
+@Table(name = "Clients")
 public class Client
 {
   @Id
@@ -15,7 +15,7 @@ public class Client
   @NotNull
   @Column(name = "name", unique = true)
   private String name;
-
+  @NotNull
   private String type;
 
   public Client()

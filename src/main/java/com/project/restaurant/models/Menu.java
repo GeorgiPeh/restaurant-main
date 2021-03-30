@@ -1,11 +1,26 @@
 package com.project.restaurant.models;
 
+import com.sun.istack.NotNull;
+
+import javax.persistence.*;
+
+@Entity
+@Table (name = "Menu")
 public class Menu
 {
+  @Id
+  @GeneratedValue(strategy = GenerationType.AUTO)
   private int     id;
+  @Column
+  @NotNull
   private String  dishesName;
+  @Column
+  @NotNull
   private double  price;
+  @Column
+  @NotNull
   private int     weight;
+  @Column
   private int     quantity;
 
   public Menu(int id, String dishesName, double price, int weight, int quantity)
